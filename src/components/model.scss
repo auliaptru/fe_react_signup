@@ -1,0 +1,29 @@
+.model {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    padding: 20px;
+    background: #add8e6;
+    border-radius: 20px;
+    img {
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+    p {
+        text-align: left;
+    }
+    h1 {
+        margin-top: 20px;
+        font-size: 26px;
+        color: white;
+        font-weight: 600;
+        letter-spacing: 0.04rem;
+        text-shadow: 2px 2px 3px gray;
+        z-index: 999;
+    }
+}
